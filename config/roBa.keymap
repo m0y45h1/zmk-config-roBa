@@ -112,7 +112,7 @@
             bindings = <
 &kp ESCAPE  &trans  &trans       &trans       &trans                         &trans    &trans          &trans        &trans           &kp DEL
 &trans      &trans  &trans       &trans       &trans  &trans        &trans   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
-&trans      &trans  &kp LC(INS)  &kp LS(INS)  &trans  &kp HOME      &kp END  &trans    &trans          &trans        &trans           &kp PAGE_DOWN
+&trans      &trans  &kp LC(INS)  &kp LS(INS)  &trans  &kp HOME      &kp END  &kp PLUS  &kp EQUAL       &kp SQT       &kp DQT          &kp PAGE_DOWN
 &trans      &trans  &trans       &trans       &trans  &trans        &trans   &trans                                                   &trans
             >;
 
