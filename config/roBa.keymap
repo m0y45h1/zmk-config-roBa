@@ -76,7 +76,7 @@
         };
 
         scroll {
-            bindings = <&to 5>;
+            bindings = <&mo 5>;
             key-positions = <7 8>;
         };
     };
