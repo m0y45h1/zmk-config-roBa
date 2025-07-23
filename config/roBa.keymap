@@ -54,6 +54,26 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <19 20>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <18 20>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -82,7 +102,7 @@
         default_layer {
             bindings = <
 &kp Q           &kp W             &kp E    &kp R         &kp T                                                                              &kp Y                       &kp U  &lt_to_layer_0 5 I  &kp O    &kp P
-&kp A           &kp S             &kp D    &kp F         &kp G                          &mkp MB1                    &kp MINUS               &kp H                       &kp J  &kp K               &kp L    &lt_to_layer_0 4 SEMICOLON
+&kp A           &kp S             &kp D    &kp F         &kp G                          &mkp MB1                    &kp MINUS               &kp H                       &kp J  &kp K               &kp L    &kp SEMICOLON
 &kp Z           &kp X             &kp C    &kp V         &kp B                          &kp LEFT_BRACKET            &kp RIGHT_BRACKET       &kp N                       &kp M  &kp COMMA           &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB  &kp LEFT_ALT  &lt_to_layer_0 2 LS(CAPSLOCK)  &lt_to_layer_0 1 SPACE      &lt_to_layer_0 3 ENTER  &lt_to_layer_0 3 BACKSPACE                                      &kp RWIN
             >;
